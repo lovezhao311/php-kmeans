@@ -1,0 +1,13 @@
+{
+    "name": "luffyzhao/php-kmeans",
+    "authors": [
+        {
+            "name": "Luffy Zhao",
+            "email": "luffyzhao@vip.126.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {"luffyzhao\\Means\\": "src/"}
+    }
+}
