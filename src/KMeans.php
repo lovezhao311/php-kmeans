@@ -222,8 +222,8 @@ class KMeans
     private function _getWcss($point, $cluster)
     {
 
-        return (pow($point[$this->getXKey()] - $cluster->getCenter()[$this->getXKey()], 2) +
-            pow($point[$this->getYKey()] - $cluster->getCenter()[$this->getYKey()], 2));
+        return (pow($point[$this->getXKey()] - $cluster->getCenter()[0], 2) +
+            pow($point[$this->getYKey()] - $cluster->getCenter()[1], 2));
     }
 
     /**

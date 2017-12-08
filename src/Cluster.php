@@ -110,7 +110,6 @@ class Cluster
 
         $xTotal = 0;
         $yTotal = 0;
-
         foreach ($this->data as $point) {
             $xTotal += $point[$this->config['xKey']];
             $yTotal += $point[$this->config['yKey']];
